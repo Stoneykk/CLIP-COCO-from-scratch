@@ -1,46 +1,86 @@
-# CLIP from Scratch
+# CLIP-COCO-from-scratch
 
-一个从零开始实现的最小版本CLIP模型，使用ResNet-50和冻结的DistilBERT，在COCO Caption数据集上进行图文对比学习。
+A minimal CLIP (Contrastive Language-Image Pre-training) implementation from scratch using ResNet-50 and frozen DistilBERT, trained on COCO Caption dataset for multimodal learning research and education.
 
-## 项目结构
+## 🎯 Project Overview
+
+This project implements a simplified version of CLIP that learns to associate images with their corresponding text descriptions through contrastive learning. The model consists of:
+
+- **Image Encoder**: ResNet-50 (pre-trained on ImageNet)
+- **Text Encoder**: DistilBERT (frozen parameters)
+- **Projection Head**: Linear layers to map both encoders to a common embedding space
+- **Loss Function**: InfoNCE contrastive loss
+
+## 📦 Project Structure
 
 ```
-clip_from_scratch/
-├── data/                        # 存放训练数据（图像 + 文本）
-│   └── coco/                    # COCO caption 数据集结构
+CLIP-COCO-from-scratch/
+├── data/                        # Training data (images + text)
+│   └── coco/                    # COCO caption dataset structure
 │       ├── images/             
 │       └── captions.json       
-├── models/                      # 模型定义
-│   ├── image_encoder.py        # ResNet50 图像编码器
-│   ├── text_encoder.py         # DistilBERT 文本编码器（冻结）
-│   └── clip_model.py           # 整体 CLIP 模型
-├── datasets/                    # 数据集处理
-│   └── coco_dataset.py         # COCO数据集加载器
-├── train/                       # 训练相关
-│   └── train_clip.py           # 训练主循环
-├── utils/                       # 工具函数
-│   ├── tokenizer.py            # 文本tokenizer
-│   ├── metrics.py              # 评估指标
-│   └── logger.py               # 日志记录
-├── configs/                     # 配置文件
-│   └── config.yaml             # 超参数配置
-├── tests/                       # 测试文件
-│   └── test_forward_pass.py    # 单元测试
-└── main.py                     # 训练入口
+├── models/                      # Model definitions
+│   ├── image_encoder.py        # ResNet50 image encoder
+│   ├── text_encoder.py         # DistilBERT text encoder (frozen)
+│   └── clip_model.py           # Complete CLIP model
+├── datasets/                    # Dataset processing
+│   └── coco_dataset.py         # COCO dataset loader
+├── train/                       # Training utilities
+│   └── train_clip.py           # Training loop
+├── utils/                       # Utility functions
+│   ├── tokenizer.py            # Text tokenizer
+│   ├── metrics.py              # Evaluation metrics
+│   └── logger.py               # Logging utilities
+├── configs/                     # Configuration files
+│   └── config.yaml             # Hyperparameters
+├── tests/                       # Test files
+│   └── test_forward_pass.py    # Unit tests
+└── main.py                     # Training entry point
 ```
 
-## 安装依赖
+## 🚀 Quick Start
+
+### Installation
 
 ```bash
+git clone https://github.com/Stoneykk/CLIP-COCO-from-scratch.git
+cd CLIP-COCO-from-scratch
 pip install -r requirements.txt
 ```
 
-## 使用方法
+### Training
 
 ```bash
 python main.py
 ```
 
-## 开发状态
+## 🔧 Development Status
 
-🚧 项目正在开发中，当前已完成项目结构搭建。
+🚧 **Under Development** - Currently completed:
+- ✅ Project structure setup
+- 🔄 Model implementation (in progress)
+- ⏳ Dataset preparation
+- ⏳ Training pipeline
+- ⏳ Evaluation metrics
+
+## 📋 Requirements
+
+- Python 3.8+
+- PyTorch 1.9.0+
+- Transformers 4.20.0+
+- CUDA (optional, for GPU acceleration)
+
+## 🤝 Contributing
+
+This is an educational project for learning CLIP implementation. Feel free to contribute improvements or report issues!
+
+## 📄 License
+
+MIT License - see LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- OpenAI CLIP for the original paper and inspiration
+- Hugging Face Transformers for DistilBERT
+- PyTorch team for the deep learning framework
+- COCO dataset creators
