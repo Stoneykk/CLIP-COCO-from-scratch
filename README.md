@@ -1,13 +1,13 @@
 # CLIP-COCO-from-scratch
 
-A minimal CLIP (Contrastive Language-Image Pre-training) implementation from scratch using ResNet-50 and frozen DistilBERT, trained on COCO Caption dataset for multimodal learning research and education.
+A minimal CLIP (Contrastive Language-Image Pre-training) implementation from scratch using ResNet-50 and frozen DistilBERT, trained on COCO Caption dataset for multimodal learning.
 
 ## 🎯 Project Overview
 
 This project implements a simplified version of CLIP that learns to associate images with their corresponding text descriptions through contrastive learning. The model consists of:
 
 - **Image Encoder**: ResNet-50 (pre-trained on ImageNet)
-- **Text Encoder**: DistilBERT (frozen parameters)
+- **Text Encoder**: DistilBERT (LoRA+PEFT)
 - **Projection Head**: Linear layers to map both encoders to a common embedding space
 - **Loss Function**: InfoNCE contrastive loss
 
@@ -70,13 +70,6 @@ python main.py
 - Transformers 4.20.0+
 - CUDA (optional, for GPU acceleration)
 
-## 🤝 Contributing
-
-This is an educational project for learning CLIP implementation. Feel free to contribute improvements or report issues!
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
