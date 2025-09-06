@@ -1,0 +1,216 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "sample_000000.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 2,
+      "file_name": "sample_000001.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 3,
+      "file_name": "sample_000002.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 4,
+      "file_name": "sample_000003.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 5,
+      "file_name": "sample_000004.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 6,
+      "file_name": "sample_000005.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 7,
+      "file_name": "sample_000006.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 8,
+      "file_name": "sample_000007.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 9,
+      "file_name": "sample_000008.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 10,
+      "file_name": "sample_000009.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "caption": "A photo of sample image 1"
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "caption": "Sample picture number 1"
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "caption": "Test image 1 for CLIP training"
+    },
+    {
+      "id": 4,
+      "image_id": 2,
+      "caption": "A photo of sample image 2"
+    },
+    {
+      "id": 5,
+      "image_id": 2,
+      "caption": "Sample picture number 2"
+    },
+    {
+      "id": 6,
+      "image_id": 2,
+      "caption": "Test image 2 for CLIP training"
+    },
+    {
+      "id": 7,
+      "image_id": 3,
+      "caption": "A photo of sample image 3"
+    },
+    {
+      "id": 8,
+      "image_id": 3,
+      "caption": "Sample picture number 3"
+    },
+    {
+      "id": 9,
+      "image_id": 3,
+      "caption": "Test image 3 for CLIP training"
+    },
+    {
+      "id": 10,
+      "image_id": 4,
+      "caption": "A photo of sample image 4"
+    },
+    {
+      "id": 11,
+      "image_id": 4,
+      "caption": "Sample picture number 4"
+    },
+    {
+      "id": 12,
+      "image_id": 4,
+      "caption": "Test image 4 for CLIP training"
+    },
+    {
+      "id": 13,
+      "image_id": 5,
+      "caption": "A photo of sample image 5"
+    },
+    {
+      "id": 14,
+      "image_id": 5,
+      "caption": "Sample picture number 5"
+    },
+    {
+      "id": 15,
+      "image_id": 5,
+      "caption": "Test image 5 for CLIP training"
+    },
+    {
+      "id": 16,
+      "image_id": 6,
+      "caption": "A photo of sample image 6"
+    },
+    {
+      "id": 17,
+      "image_id": 6,
+      "caption": "Sample picture number 6"
+    },
+    {
+      "id": 18,
+      "image_id": 6,
+      "caption": "Test image 6 for CLIP training"
+    },
+    {
+      "id": 19,
+      "image_id": 7,
+      "caption": "A photo of sample image 7"
+    },
+    {
+      "id": 20,
+      "image_id": 7,
+      "caption": "Sample picture number 7"
+    },
+    {
+      "id": 21,
+      "image_id": 7,
+      "caption": "Test image 7 for CLIP training"
+    },
+    {
+      "id": 22,
+      "image_id": 8,
+      "caption": "A photo of sample image 8"
+    },
+    {
+      "id": 23,
+      "image_id": 8,
+      "caption": "Sample picture number 8"
+    },
+    {
+      "id": 24,
+      "image_id": 8,
+      "caption": "Test image 8 for CLIP training"
+    },
+    {
+      "id": 25,
+      "image_id": 9,
+      "caption": "A photo of sample image 9"
+    },
+    {
+      "id": 26,
+      "image_id": 9,
+      "caption": "Sample picture number 9"
+    },
+    {
+      "id": 27,
+      "image_id": 9,
+      "caption": "Test image 9 for CLIP training"
+    },
+    {
+      "id": 28,
+      "image_id": 10,
+      "caption": "A photo of sample image 10"
+    },
+    {
+      "id": 29,
+      "image_id": 10,
+      "caption": "Sample picture number 10"
+    },
+    {
+      "id": 30,
+      "image_id": 10,
+      "caption": "Test image 10 for CLIP training"
+    }
+  ]
+}
